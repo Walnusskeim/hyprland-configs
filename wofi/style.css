@@ -1,0 +1,86 @@
+/* Window */
+window {
+  margin: 0px;
+  padding: 10px;
+  border: 2px solid @lavender;
+  border-radius: 8px;
+  background-color: rgba(30, 30, 46, 0.9);
+}
+
+/* Input */
+#input {
+  margin: 5px 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: @surface0;
+  color: @text;
+  border: 2px solid @pink;
+}
+
+#input:focus {
+  border: 2px solid @mauve;
+}
+
+/* Eingabefeld-Icon */
+#input image {
+  border: none;
+  color: @mauve;
+}
+
+#input * {
+  outline: none;
+}
+
+/* Entry */
+#entry {
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+#entry:selected {
+  background-color: @surface1;
+  border: 2px solid @mauve;
+}
+
+#entry:selected #text {
+  color: @pink;
+  font-weight: bold;
+}
+
+/* Text allgemein */
+#text {
+  color: @text;
+}
+
+/* Scrollbar (optional) */
+scrollbar, trough {
+  all: unset;
+  background-color: transparent;
+}
+
+slider {
+  background-color: @overlay1;
+  border-radius: 5px;
+}
+
+/* Inner/Outer Box */
+#inner-box {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: rgba(30,30,46,0.9);
+}
+
+#outer-box {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: rgba(30,30,46,0.9);
+}
+
+#scroll {
+  background-color: @base;
+  border: none;
+}

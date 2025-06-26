@@ -1,0 +1,135 @@
+* {
+  font-family: "Iosevka Nerd Font", "Symbols Nerd Font", sans-serif;
+  font-size: 17px;
+  border: none;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+
+window#waybar {
+  background-color: #1E1E2E;
+  color: #E0E0FF;
+  padding: 0 10px;
+  border-radius: 0;
+}
+
+
+/* Workspaces */
+#workspaces button {
+  background: transparent;
+  color: #8888CC;
+  padding: 0 8px;
+  margin: 0 4px;
+  border-radius: 6px;
+}
+
+#workspaces button.focused {
+  background: #8888CC;
+  color: #1E1E2E;
+}
+
+#workspaces button:hover {
+  background: #6666AA;
+  color: #ffffff;
+}
+
+
+/* Centered Window Title */
+#window {
+  color: #B8B8E8;
+  font-weight: 500;
+}
+
+
+/* Right-aligned modules */
+#network,
+#pulseaudio,
+#battery,
+#clock {
+  background: #2E2E3E;
+  padding: 3px 8px;
+  margin: 3px 4px;
+  border-radius: 8px;
+}
+
+
+/* Temperature colors */
+#temperature {
+  background: #2E2E3E;
+  color: #F38BA8;
+  padding: 3px 8px;
+  margin: 3px 4px;
+  border-radius: 8px;
+
+}
+
+#temperature.critical {
+  background: #2E2E3E;
+  color: #E38C8F;
+}
+
+
+/* Battery state overrides */
+#battery.critical {
+  background: #2E2E3E;
+  color: #E38C8F;
+}
+
+#battery.warning {
+  background: #2E2E3E;
+  color: #B1E3AD;
+}
+
+#battery.charging,
+#battery.plugged,
+#battery.full {
+  background: #2E2E3E;
+  color: #B1E3AD;
+}
+
+
+/* Muted volume */
+#pulseaudio.muted {
+  background: #2E2E3E;
+  color: #8888CC;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 16px;
+  margin: 3px 4px;
+  border-radius: 8px;
+}
+
+
+/* Module-specific tweaks */
+#cpu {
+  background: #2E2E3E;
+  color: #FAB387;
+  padding: 3px 8px;
+  margin: 3px 4px;
+  border-radius: 8px;
+}
+
+#memory {
+  background: #2E2E3E;
+  color: #94E2D5;
+  padding: 3px 8px;
+  margin: 3px 4px;
+  border-radius: 8px; 
+}
+
+#backlight {
+  background: #2E2E3E;
+  color: #F9E2AF;
+  padding: 3px 8px;
+  margin: 3px 4px;
+  border-radius: 8px;
+}
+
+#network {
+  color: #f5e0dc;
+}
+
+#clock {
+  color: #f5c2e7;
+}
