@@ -2,7 +2,7 @@
 
 # My dotfiles :)
 
-I'm just showing what I did for my fist try in Linux Ricing. For my Theme, I chose Mafuyu Asahina from Project Sekai.
+I'm just showing what I did for my fist try in Linux ricing. For my theme, I chose Mafuyu Asahina from Project Sekai.
 It is FAR from perfect - at least that's what I think. I still don't really get some things - but we moving!
 
 <details>
@@ -21,7 +21,7 @@ It is FAR from perfect - at least that's what I think. I still don't really get 
   <h3>Usage example</h3>
   <img src="./Screenshots/usage_example.png" width="100%" />
 
-  <h3>Files</h3> <h6>(i still have to change the folder colors)</h6>
+  <h3>Files</h3><h6>(i still have to change the folder colors)</h6>
   <img src="./Screenshots/files.png" width="100%" />
 
   <h3>The menu program Wofi</h3>
