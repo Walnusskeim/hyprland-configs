@@ -56,7 +56,7 @@
   "temperature": {
     "format": "{temperatureC}°C {icon}",
     "critical-threshold": 80,
-    "format-icons": ["", "", ""]
+    "format-icons": ["", "", ""]
   },
 
   "backlight": {
