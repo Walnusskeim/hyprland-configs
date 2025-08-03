@@ -3,8 +3,8 @@
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
   "modules-right": [
-    "network", "backlight", "cpu", "memory",
-    "temperature", "pulseaudio", "battery", "clock"
+    "network", "bluetooth", "pulseaudio", "backlight", "cpu",
+    "memory", "temperature", "battery", "clock"
   ],
 
   "clock": {
@@ -37,7 +37,7 @@
   },
 
   "pulseaudio": {
-    "format": "{icon} {volume}%",
+    "format": "{icon}   {volume}%",
     "format-muted": "",
     "format-icons": {
       "default": ["", "", ""]
@@ -63,5 +63,14 @@
   "backlight": {
     "format": "{percent}% {icon}",
     "format-icons": ["", "", "", "", "", "", "", "", ""]
+  },
+  
+  "bluetooth": {
+    "format": "<span foreground='#89b4fa'></span> {status}",
+    "format-connected": "<span foreground='#89b4fa'></span> {device_alias}",
+    "format-on": "<span foreground='#89b4fa'>󰂯</span> On",
+    "format-off": "<span foreground='#45475a'>󰂲</span> Off",
+    "tooltip-format": "Status: {status}\nGerät: {device_alias}",
+    "on-click": "blueman-manager"
   }
 }
