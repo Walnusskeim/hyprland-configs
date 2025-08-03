@@ -62,14 +62,14 @@
 
   "backlight": {
     "format": "{percent}% {icon}",
-    "format-icons": ["", "", "", "", "", "", "", "", ""]
+    "format-icons": ["", "", "", "", "", "", "", "", ""]
   },
   
   "bluetooth": {
-    "format": "<span foreground='#89b4fa'></span> {status}",
+    "format": "<span foreground='#89b4fa'>󰂯</span> {status}",
     "format-connected": "<span foreground='#89b4fa'></span> {device_alias}",
     "format-on": "<span foreground='#89b4fa'>󰂯</span> On",
-    "format-off": "<span foreground='#45475a'>󰂲</span> Off",
+    "format-off": "<span foreground='#45475a'>󰂲/span> Off",
     "tooltip-format": "Status: {status}\nGerät: {device_alias}",
     "on-click": "blueman-manager"
   }
