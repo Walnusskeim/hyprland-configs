@@ -23,7 +23,7 @@
     "format-critical": "<span foreground='#E38C8F'>{icon}</span> {capacity}%",
     "format-charging": "<span foreground='#B1E3AD'> </span>{capacity}%",
     "format-plugged": "<span foreground='#B1E3AD'> </span>{capacity}%",
-    "format-alt": "<span foreground='#B1E3AD'>{icon}</span> {time}",
+    "format-alt": "<span foreground='#B1E3AD'>{icon}</span>    {time}",
     "format-full": "<span foreground='#B1E3AD'> </span>{capacity}%",
     "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}"
